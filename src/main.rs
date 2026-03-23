@@ -144,7 +144,7 @@ fn main() {
 
     let event_loop = EventLoop::new();
     let window = WindowBuilder::new()
-        .with_title(format!("mdr - {title}"))
+        .with_title(format!("mdlens - {title}"))
         .with_inner_size(tao::dpi::LogicalSize::new(860.0, 700.0))
         .build(&event_loop)
         .unwrap();
