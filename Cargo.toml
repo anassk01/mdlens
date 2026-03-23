@@ -1,0 +1,13 @@
+[package]
+name = "mdlens"
+version = "0.2.0"
+edition = "2024"
+
+[dependencies]
+pulldown-cmark = "0.13"
+tao = "0.35"
+wry = "0.55"
+
+[profile.release]
+strip = true
+lto = true
